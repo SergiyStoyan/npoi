@@ -6,6 +6,9 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>../npoi.snk</AssemblyOriginatorKeyFile>
     <OutputPath>..\solution\$(Configuration)\</OutputPath>
+    <PackageLicenseFile />
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <Version>$(VersionPrefix)</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -26,8 +29,8 @@
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="all" />
     <PackageReference Include="BouncyCastle.Cryptography" />
     <PackageReference Include="SharpZipLib" />
-    <PackageReference Include="SkiaSharp"/>
-    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies"/>
+    <PackageReference Include="SkiaSharp" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" />
     <PackageReference Include="ZString" />
   </ItemGroup>
 
